@@ -1,0 +1,26 @@
+Type: Compendium
+Package: enough-evidence
+Title: Stable Cochrane reviews in 2019
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Hilda",
+           family = "Bastian",
+           role = c("aut", "cre"),
+           email = "hildabast@gmail.com",
+           comment = c(ORCID = "0000-0001-8544-7386")),
+    person(given = "Lars G.",
+           family = "Hemkens",
+           role = c("aut"),
+           email = "lars.hemkens@usb.ch",
+           comment = c(ORCID = "0000-0002-3444-1432"))
+           )
+Description: This is the repository for a descriptive study of stable Cochrane reviews in 2019
+License: gpl-3.0 (GNU General Public License v3.0)
+Depends:
+    holepunch,
+    reshape2,
+    tidyverse
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
